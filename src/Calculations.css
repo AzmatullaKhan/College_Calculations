@@ -1,3 +1,73 @@
-body{
-    margin:0
+*{
+    border-color: #fff;
+}
+.main{
+    height:849px;
+    width:1490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamRqMTB1a2RpNHNwOWVwYWp0enhuazhseWM5MGh6enZpYjVpMnBqbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pNLoBU0ZMLs2ltXkFV/giphy.gif')
+}
+.container{
+    height:auto;
+    width:900px;
+    padding:12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    backdrop-filter: blur(22px);
+    /* background-color: ; */
+    /* border:1px solid; */
+}
+.input-numberOfSubjects{
+    min-width:600px;
+    color: #fff;
+    outline:none;
+    border-radius: 12px;
+    height:30px;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+    padding:6px;
+    margin:0px 12px;
+    border:1px solid;
+}
+button{
+    width:120px;
+    margin:0px 12px;
+    border-radius: 12px;
+    outline:none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+    height:32px;
+    width:122px;
+}
+.each-subject{
+    box-sizing: border-box;
+    /* height:44px; */
+    border: 1px solid;
+    text-align: center;
+    padding:6px 0px;
+}
+.subject-input{
+    min-width:300px;
+    color: #fff;
+    outline:none;
+    border-radius: 12px;
+    height:30px;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+    padding:6px;
+    margin:4px 6px;
+    border:1px solid;
 }
