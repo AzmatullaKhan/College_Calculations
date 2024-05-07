@@ -13,6 +13,7 @@
 }
 .container{
     height:auto;
+    /* min-height:150px; */
     width:900px;
     padding:12px;
     box-sizing: border-box;
@@ -34,7 +35,7 @@
     margin:0px 12px;
     border:1px solid;
 }
-button{
+.sub-button{
     width:120px;
     margin:0px 12px;
     border-radius: 12px;
@@ -44,8 +45,9 @@ button{
     border: none;
     cursor: pointer;
     transition: all 0.4s ease-out;
+    height: 30px;
 }
-button:hover{
+.sub-button:hover{
     background-color: #fff;
     color: #000;
     height:32px;
@@ -54,7 +56,7 @@ button:hover{
 .each-subject{
     box-sizing: border-box;
     /* height:44px; */
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     padding:6px 0px;
 }
@@ -70,4 +72,42 @@ button:hover{
     padding:6px;
     margin:4px 6px;
     border:1px solid;
+}
+.hid-cal-button{
+    width:120px;
+    height: 30px;
+    margin:12px;
+    border-radius: 12px;
+    outline:none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+    transition: all 0.4s ease-out;
+}
+.hid-cal-button:hover{
+    background-color: #fff;
+    color: #000;
+    height:32px;
+    width:122px;
+}
+.cal-button{
+    width:120px;
+    height: 30px;
+    margin:12px;
+    border-radius: 12px;
+    outline:none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    display: block;
+}
+.cal-button:hover{
+    background-color: #fff;
+    color: #000;
+    height:32px;
+    width:122px;
 }
