@@ -111,3 +111,19 @@
     height:32px;
     width:122px;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.delete-icon{
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+    position: relative;
+    top:10px;
+}
+
+.hidden{
+    display: none;
+}
