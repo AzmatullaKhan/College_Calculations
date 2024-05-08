@@ -33,7 +33,7 @@ function Calculations() {
     in2.id='credits_input_delete_'+credits_in_id;
     credits_in_id+=1;
 
-    let br=document.createElement('br');
+    // let br=document.createElement('br');
 
     let del=document.createElement('img')
     del.src=require('./images/delete.jpg')
@@ -43,7 +43,7 @@ function Calculations() {
     es.appendChild(in1)
     es.appendChild(in2)
     es.appendChild(del)
-    es.appendChild(br)
+    // es.appendChild(br)
     
     document.getElementById(del.id).addEventListener('click',(e)=>{
       if(e.target.id==='delete_1'){
@@ -52,6 +52,8 @@ function Calculations() {
       else{
         let g_id='grade_input_'+e.target.id
         let c_id='credits_input_'+e.target.id
+        document.getElementById(g_id).value=""
+        document.getElementById(c_id).value=""
         document.getElementById(g_id).className='hidden'
         document.getElementById(c_id).className='hidden'
         document.getElementById(e.target.id).className='hidden'
