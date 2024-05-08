@@ -1,5 +1,7 @@
 *{
-    border-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    user-select: none;
 }
 .main{
     height:849px;
@@ -19,12 +21,11 @@
     box-sizing: border-box;
     border-radius: 12px;
     backdrop-filter: blur(22px);
-    /* background-color: ; */
-    /* border:1px solid; */
 }
 .input-numberOfSubjects{
     min-width:600px;
     color: #fff;
+    font-weight: bolder;
     outline:none;
     border-radius: 12px;
     height:30px;
@@ -55,8 +56,6 @@
 }
 .each-subject{
     box-sizing: border-box;
-    /* height:44px; */
-    /* border: 1px solid; */
     text-align: center;
     padding:6px 0px;
 }
@@ -85,12 +84,14 @@
     cursor: pointer;
     display: none;
     transition: all 0.4s ease-out;
+    cursor: pointer;
 }
 .hid-cal-button:hover{
     background-color: #fff;
     color: #000;
     height:32px;
     width:122px;
+    cursor: pointer;
 }
 .cal-button{
     width:120px;
@@ -104,12 +105,14 @@
     cursor: pointer;
     transition: all 0.4s ease-out;
     display: block;
+    cursor: pointer;
 }
 .cal-button:hover{
     background-color: #fff;
     color: #000;
     height:32px;
     width:122px;
+    cursor: pointer;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -122,6 +125,7 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 30px;
     position: relative;
     top:10px;
+    cursor: pointer;
 }
 
 .hidden{
@@ -130,4 +134,18 @@ input[type=number]::-webkit-outer-spin-button {
     width:0px;
     margin:0px;
     padding: 0px;
+}
+
+footer{
+    position: absolute;
+    height:75px;
+    top:775px;
+    width:1495px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* backdrop-filter: blur(42px); */
+}
+footer p a{
+    color: #fff;
 }

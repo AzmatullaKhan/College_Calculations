@@ -33,7 +33,6 @@ function Calculations() {
     in2.id='credits_input_delete_'+credits_in_id;
     credits_in_id+=1;
 
-    // let br=document.createElement('br');
 
     let del=document.createElement('img')
     del.src=require('./images/delete.jpg')
@@ -43,7 +42,6 @@ function Calculations() {
     es.appendChild(in1)
     es.appendChild(in2)
     es.appendChild(del)
-    // es.appendChild(br)
     
     document.getElementById(del.id).addEventListener('click',(e)=>{
       if(e.target.id==='delete_1'){
@@ -123,6 +121,9 @@ function Calculations() {
           </div>
         </center>
       </div>
+      <footer>
+        <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
+      </footer>
     </div>
   );
 }
